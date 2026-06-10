@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎱 Billiard Ball Detector
 
 A deep learning computer vision project that automatically detects billiard balls in an image and classifies each detected ball as either **solid** or **striped**.
@@ -255,5 +254,3 @@ Phong Tran
 
 Computer Vision & Deep Learning Project
 =======
-# billiard_ball_detector
->>>>>>> e76dc9749cbb24588b51b8a6340a85b46ec031df
