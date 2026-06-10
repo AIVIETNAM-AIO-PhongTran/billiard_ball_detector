@@ -35,7 +35,7 @@ The script expects the following trained model weights to be located in the same
 
 ```text
 src/
-├── project3.py
+├── inference.py
 ├── balldetector_frcnn.pth
 └── balltype_resnet18.pth
 ```
@@ -59,7 +59,7 @@ python src/inference.py path/to/image.png
 Example:
 
 ```bash
-python src/project3.py assets/sample_input.png
+python src/inference.py assets/sample_input.png
 ```
 
 ---
@@ -88,21 +88,20 @@ Where:
 Example:
 
 ```text
-16
-302 506 102 0
-888 570 100 0
-948 1240 117 0
-425 659 107 0
-523 491 103 0
-1030 260 97 1
-572 801 109 0
-830 290 96 1
-830 772 107 0
-612 293 96 1
-730 946 112 0
-672 638 104 0
-965 419 98 1
-417 336 99 1
-206 350 102 1
-737 441 100 1
+15
+306 104 22 1
+222 230 21 1
+224 120 20 0
+264 113 20 0
+230 191 20 0
+328 199 21 1
+276 185 21 1
+185 287 21 1
+174 172 21 0
+290 145 21 1
+149 244 21 0
+184 134 19 1
+142 136 24 0
+248 153 19 0
+249 260 21 1
 ```
